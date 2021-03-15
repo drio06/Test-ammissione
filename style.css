@@ -1,0 +1,82 @@
+
+
+body{
+  background-size: cover;
+  background-image: url(immagini/background.jpg);
+
+}
+
+
+.contenitore{
+  width: 60%;
+  background-color: rgba(47, 47, 47, 0.7);
+  margin: auto;
+  border-radius: 8px;
+  padding: 5%;
+}
+
+header, .menu-navigazione{
+ text-align: center;
+}
+
+header > img{
+  width: 200px;
+}
+
+header > h2{
+  color: lime;
+  margin-bottom: 0;
+
+}
+
+
+.menu-navigazione{
+  background-color: lime;
+  padding: 1%;
+  margin-bottom: 20px;
+}
+
+.menu-navigazione > button:hover{
+  color: red;
+}
+
+
+main > div{
+  color: white;
+}
+
+div > h3{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.tipo-Monopattino > span{
+  display: block;
+  margin-bottom: 5px;
+ }
+
+#indicazioni-monopattino:before{
+  content: "\21A6";
+ }
+
+.batteria-media, .batteria-carica, .batteria-scarica{
+  border-radius: 4px;
+}
+
+.batteria-media{
+  width: 30%;
+  background-color: orange;
+  color: orange;
+ }
+
+.batteria-carica{
+  width: 50%;
+  background-color: lime;
+  color: lime;
+ }
+
+.batteria-scarica{
+  width: 10%;
+  background-color: red;
+  color: red;
+  }
